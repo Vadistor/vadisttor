@@ -1,0 +1,319 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.wrapper{
+min-height: 100%;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+}
+.container{
+max-width: 1180px;
+padding: 0px 10px 0px 10px;
+margin: 0 auto;
+}
+.content{
+}
+
+/*----------HEDER------------*/
+.hader{
+background-color: #ba0000;
+ 
+}
+.heder__navigation{
+display: flex;
+justify-content: space-between;
+padding: 15px 0px 20px 0px;
+}
+.heder__mehu{
+display: flex;
+}
+.heder__flex{
+display: flex;
+}
+.heder__imege1{
+padding: 5px 0px 0px 5px;
+}
+.heder__imege2{
+margin: -3px 0px 0px 0px;
+}
+.heder__imege3{
+padding: 5px 0px 0px 5px;
+}
+.heder__english{
+color: #fff;
+
+}
+.heder__center{}
+.heder__control{
+
+}
+.hader__silka1{
+color: #fff;
+margin: 0px 30px 0px 0px;
+}
+.hader__silka1:hover{
+color: #fff;
+margin: 0px 30px 0px 0px;
+text-decoration: underline;
+}
+.hader__silka2{
+color: #fff;
+}
+.hader__silka2:hover{
+color: #fff;
+text-decoration: underline;
+}
+
+/*-----------LOGOTIP--------*/
+
+.logotip{
+background-color: #ffcc00; 
+}
+.logotip__menu{
+display: flex;
+justify-content: space-between;
+padding: 35px 0px 35px 0px;
+}
+.logotip__flex{
+display: flex;
+}
+.logotip__punkt{
+padding: 20px 45px 0px 0px;
+}
+.logotip__text{
+color: #ba0000;
+font-size: 15px;
+font-weight: 600;
+}
+.logotip__text:hover{
+color: #ba0000;
+font-size: 15px;
+font-weight: 600;
+text-decoration: underline;
+}
+/*----------speed---------*/
+.speed{
+background: url(../img/heder/01.jpg);
+background-position: 0 0;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.speed__heder{
+padding: 186px 0px 182px 0px;
+}
+}
+.speed__img{
+
+}
+.title__zagolov{
+font-size: 60px;
+font-weight: 700;
+color: #fff;
+}
+.speed__text{
+max-width: 55%;
+font-size: 22px;
+color: #ffcc00;
+margin: 30px 0px 0px 0px;
+}
+.top__text2{
+color: #ffcc00;
+font-size: 30px;
+font-weight: 900;
+margin: -13px 0px 0px 0px;
+padding: 0px 28px 0px 0px; 
+}
+.speed__dekoration{
+background: #ffcc00;
+max-width: 100px;
+height: 4px;
+margin: 59px 0px 0px 0px;
+}
+.speed__top{
+display: flex;
+margin: 48px 0px 0px 0px;
+}
+.top__text1{
+font-size: 17px;
+font-weight: 900;
+padding: 0px 28px 0px 0px;
+color: #fff;
+}
+.and{
+}
+.speed__boton{
+display: flex;
+max-width: 364px;
+margin: 42px 0px 0px 0px;
+}
+.buton__more{
+background: #ffcc00;
+max-width: ;
+height: 50px;
+padding: 17px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+border-radius: 30px;
+}
+.more__top{
+color: #bb0605;
+font-weight: 700;
+padding: 21px 31px 0px 31px;
+
+}
+.buton__dhl{
+border: 2px solid #fff;
+height: 50px;
+padding: 17px 0px 0px 0px;
+margin: 0px 0px 0px 20px;
+border-radius: 30px;
+}
+.dhl__top{
+color: #fff;
+font-weight: 700;
+padding: 21px 31px 0px 31px;	
+}
+
+
+/*----------------------*/
+@media (max-width:1100px){
+.container{
+max-width: 970px;
+}
+}
+@media (max-width:992px){
+.container{
+max-width: 750px;
+}
+.logotip__punkt{
+padding: 20px 25px 0px 0px;
+}
+.logotip__flex{
+display: flex;
+flex-direction: column;
+}
+.logotip__text{
+color: #ba0000;
+font-size: 25px;
+font-weight: 600;
+}
+.logotip__menu{
+display: flex;
+justify-content: space-between;
+padding: 20px 0px 20px 0px;
+}
+.speed{
+background: url(../img/heder/07.jpg);
+background-position: 0 0;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.speed__heder{
+padding: 146px 0px 142px 0px;
+}
+}
+@media (max-width:767px){
+.container{
+max-width: none;
+}
+.hader__silka1{
+color: #fff;
+margin: 0px 15px 0px 0px;
+}
+.logotip__flex{
+display: flex;
+flex-direction: column;
+}
+.logotip__menu{
+display: flex;
+flex-direction: column;
+padding: 20px 0px 20px 0px;
+}
+.logotip__poisk{
+display: flex;
+flex-direction: row-reverse;
+}
+.speed__heder{
+padding: 156px 0px 142px 0px;
+}
+.speed{
+background: url(../img/heder/11.jpg);
+background-position: 0 0;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.speed__heder{
+padding: 130px 0px 129px 0px;
+}
+.title__zagolov{
+font-size: 40px;
+font-weight: 700;
+color: #fff;
+}
+.speed__dekoration{
+margin: 39px 0px 0px 0px;
+}
+.speed__text{
+max-width: 65%;
+font-size: 20px;
+color: #ffcc00;
+margin: 30px 0px 0px 0px;
+}
+.top__text1{
+font-size: 17px;
+font-weight: 900;
+padding: 0px 10px 0px 0px;
+color: #fff;
+}
+.top__text2{
+color: #ffcc00;
+font-size: 30px;
+font-weight: 900;
+margin: -13px 0px 0px 0px;
+padding: 0px 10px 0px 0px;
+}
+.buton__dhl{
+border: 2px solid #fff;
+height: 50px;
+text-align: center;
+padding: 15px 0px 0px 10px;
+margin: 0px 0px 0px 10px;
+border-radius: 30px;
+}
+.dhl__top{
+color: #fff;
+font-weight: 700;
+padding: 20px 10px 0px 8px;	
+}
+.buton__more{
+background: #ffcc00;
+height: 50px;
+text-align: center;
+padding: 15px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+border-radius: 30px;
+}
+.more__top{
+color: #bb0605;
+font-weight: 700;
+text-align: center;
+padding: 10px 5px 0px 8px;
+}
+}
